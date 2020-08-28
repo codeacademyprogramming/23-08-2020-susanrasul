@@ -1,0 +1,359 @@
+@import "./variables";
+@import "./common";
+
+header {
+    background-image: url(../images/blue-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-clip: border-box;
+    @media (min-width: 500px) {
+        .container {
+            width: 50%;
+        }
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 1147px;
+        .row {
+            display: flex;
+            .column {
+                margin-top: 40px;
+                flex: 5%;
+                img {
+                    margin-left: 47px;
+                }
+                h2 {
+                    margin-top: 100px;
+                    font-size: 30px;
+                    color: white;
+                }
+                h1 {
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: white;
+                }
+                p {
+                    color: white;
+                    font-size: 16px;
+                    margin-top: 20px;
+                }
+                #info {
+                    border-radius: 20px;
+                    background-color: white;
+                    outline: none;
+                    border: none;
+                    color: #1379ff;
+                    padding: 13px 71px;
+                    box-sizing: border-box;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                #info:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #menu {
+                    color: white;
+                    text-decoration: none;
+                    button {
+                        outline: none;
+                        background: transparent;
+                        color: white;
+                        border: 0.5px solid white;
+                        border-radius: 20px;
+                        font-size: 16px;
+                        margin-left: 15px;
+                        padding: 5px 20px;
+                        box-sizing: border-box;
+                        transition: all 0.5s;
+                    }
+                    .button span {
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        transition: 0.5s;
+                    }
+                    .button:hover {
+                        transition: 0.3s;
+                        transform: scale(1.05);
+                    }
+                    ul {
+                        display: inline-block;
+                        list-style-type: none;
+                        margin-left: 10px;
+                        // li {
+                        // }
+                    }
+                    img {
+                        margin-top: 37px;
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#biography {
+    margin-top: 150px;
+    .container {
+        .row {
+            display: flex;
+            .column {
+                flex: 5%;
+                #biography-img {
+                    width: 100%;
+                    margin-left: -20px;
+                }
+                a {
+                    margin-left: 70px;
+                    text-decoration: none;
+                    color: #1379ff;
+                    font-size: 20px;
+                }
+                h1 {
+                    margin-left: 70px;
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+                p {
+                    width: 500px;
+                    height: 140px;
+                    margin-bottom: 30px;
+                    margin-top: 15px;
+                    margin-left: 70px;
+                }
+                button {
+                    margin-left: 70px;
+                    margin-top: 20px;
+                    background-color: #1379ff;
+                    color: white;
+                    border-radius: 20px;
+                    border: none;
+                    font-size: 12px;
+                    font-weight: bold;
+                    outline: none;
+                    padding: 16px 52px;
+                    box-sizing: border-box;
+                }
+                button:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+#our-services {
+    margin-top: 236px;
+    .container {
+        width: 1140px;
+        .row {
+            display: flex;
+            .column {
+                flex: 1%;
+                a {
+                    margin-left: 50px;
+                    font-size: 30px;
+                    color: #1379ff;
+                }
+                h1 {
+                    font-size: 50px;
+                    margin-left: 50px;
+                }
+                .service {
+                    width: 330px;
+                    height: 410px;
+                    margin-top: 50px;
+                    display: inline-block;
+                    margin-left: 45px;
+                    box-shadow: 5px 10px 18px #888888;
+                    border-radius: 20px;
+                    img {
+                        margin-left: 115px;
+                        margin-top: 25px;
+                        width: 25%;
+                    }
+                    h5 {
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-top: 38px;
+                        padding-left: 30px;
+                    }
+                    p {
+                        width: 270px;
+                        height: 90px;
+                        text-align: justify;
+                        padding-left: 30px;
+                        margin-top: 20px;
+                    }
+                    button {
+                        width: 100px;
+                        height: 40px;
+                        background-color: #1379ff;
+                        color: white;
+                        border-radius: 20px;
+                        border: none;
+                        font-size: 12px;
+                        font-weight: bold;
+                        outline: none;
+                        padding: 6px 19px;
+                        margin-top: 50px;
+                        box-sizing: border-box;
+                        margin-left: 175px;
+                        margin-bottom: 27px;
+                    }
+                }
+                #first:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #second:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #third:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #fourth:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #fifth:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+                #sixth:hover {
+                    transition: 0.3s;
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+#our-pricing {
+    background-color: #e3e4e6;
+    margin-top: 250px;
+    .row {
+        display: flex;
+        .column {
+            margin-top: 50px;
+            flex: 5%;
+            a {
+                margin-left: 560px;
+                color: #1379ff;
+                font-size: 20px;
+                align-items: center;
+                text-decoration: none;
+            }
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+            }
+            .package {
+                margin-bottom: 150px;
+                width: 330px;
+                height: 463px;
+                margin-top: 50px;
+                display: inline-block;
+                margin-left: 45px;
+                box-shadow: 5px 10px 18px #888888;
+                border-radius: 20px;
+                background-color: white;
+                h2 {
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-top: 38px;
+                    text-align: center;
+                }
+                p {
+                    width: 270px;
+                    height: 90px;
+                    text-align: center;
+                    font-size: 18px;
+                    margin-left: 30px;
+                    margin-top: 66px;
+                }
+                #price {
+                    color: #1379ff;
+                    display: inline-block;
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-left: 30px;
+                    margin-top: 30px;
+                }
+                button {
+                    width: 170px;
+                    height: 50px;
+                    background-color: white;
+                    color: #626877;
+                    border-radius: 50px;
+                    border: 0.5px solid #1379ff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    outline: none;
+                    padding: 6px 19px;
+                    box-sizing: border-box;
+                    margin-left: 85px;
+                    margin-bottom: 27px;
+                }
+            }
+            #packageF:hover {
+                transition: 0.3s;
+                transform: scale(1.05);
+            }
+
+            #packageS:hover {
+                transition: 0.3s;
+                transform: scale(1.05);
+            }
+
+            #packageT:hover {
+                transition: 0.3s;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+#footer {
+    margin-top: 150px;
+    background-image: url(../images/blue-background-footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-clip: border-box;
+    .container {
+        width: 1140px;
+        color: white;
+        .row {
+            display: flex;
+            // flex-wrap: wrap;
+            .column {
+                margin-top: 300px;
+                flex: 5%;
+                justify-items: center;
+                align-items: center;
+
+                img {
+                    justify-content: center;
+                }
+                h1 {
+                    font-size: 32px;
+                }
+                h2 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
